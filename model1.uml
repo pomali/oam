@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BoJO4F7MEeSxhqdheB_rTQ" name="Basic UseCase">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Tp3H4F7MEeSxhqdheB_rTQ" name="Dizajnér modelu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3gUYYF7NEeSxhqdheB_rTQ" name="Upraviť model">
+    <include xmi:id="_6wnPAF7OEeSxhqdheB_rTQ" addition="_wepP8F7OEeSxhqdheB_rTQ"/>
+    <include xmi:id="_EhJU8F7PEeSxhqdheB_rTQ" addition="_7gM44F7OEeSxhqdheB_rTQ"/>
+    <include xmi:id="_dOY_4F7REeSxhqdheB_rTQ" addition="_ajzB4F7REeSxhqdheB_rTQ"/>
+    <include xmi:id="_d0O34F7REeSxhqdheB_rTQ" addition="_SUmy4F7REeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_vBfVcF7OEeSxhqdheB_rTQ" name="UseCase2"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_wepP8F7OEeSxhqdheB_rTQ" name="Vyber vstupné dáta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7gM44F7OEeSxhqdheB_rTQ" name="Použi filtre na vstupné dáta">
+    <extend xmi:id="_zC2nMF7QEeSxhqdheB_rTQ" extendedCase="_sAU_oF7QEeSxhqdheB_rTQ"/>
+    <extend xmi:id="_zXOUsF7QEeSxhqdheB_rTQ" extendedCase="_ugUQIF7QEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_P0OywF7PEeSxhqdheB_rTQ" name="Vytvoriť nový model">
+    <extend xmi:id="_Oae_UF7UEeSxhqdheB_rTQ" extendedCase="_JUA0wF7UEeSxhqdheB_rTQ"/>
+    <include xmi:id="_xLKa4F7SEeSxhqdheB_rTQ" addition="_3gUYYF7NEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VT3EMF7PEeSxhqdheB_rTQ" name="Vymazať model"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Y1bGcF7PEeSxhqdheB_rTQ" memberEnd="_Y1btgF7PEeSxhqdheB_rTQ _Y1btgV7PEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_Y1btgF7PEeSxhqdheB_rTQ" type="_Tp3H4F7MEeSxhqdheB_rTQ" association="_Y1bGcF7PEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_Y1btgV7PEeSxhqdheB_rTQ" type="_P0OywF7PEeSxhqdheB_rTQ" association="_Y1bGcF7PEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_adFn0F7PEeSxhqdheB_rTQ" memberEnd="_adGO4F7PEeSxhqdheB_rTQ _adG18F7PEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_adGO4F7PEeSxhqdheB_rTQ" type="_Tp3H4F7MEeSxhqdheB_rTQ" association="_adFn0F7PEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_adG18F7PEeSxhqdheB_rTQ" type="_3gUYYF7NEeSxhqdheB_rTQ" association="_adFn0F7PEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bGH9wF7PEeSxhqdheB_rTQ" memberEnd="_bGIk0F7PEeSxhqdheB_rTQ _bGJL4F7PEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_bGIk0F7PEeSxhqdheB_rTQ" type="_Tp3H4F7MEeSxhqdheB_rTQ" association="_bGH9wF7PEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_bGJL4F7PEeSxhqdheB_rTQ" type="_VT3EMF7PEeSxhqdheB_rTQ" association="_bGH9wF7PEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dFXRoF7PEeSxhqdheB_rTQ" name="Predikuj pomocu aktívneho modelu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xEf5kF7PEeSxhqdheB_rTQ" name="Porovnaj model">
+    <extend xmi:id="_TU4cwF7UEeSxhqdheB_rTQ" extendedCase="_RltlMF7UEeSxhqdheB_rTQ"/>
+    <extend xmi:id="_VK6KQF7UEeSxhqdheB_rTQ" extendedCase="_TvWLMF7UEeSxhqdheB_rTQ"/>
+    <include xmi:id="_nXQiwF7QEeSxhqdheB_rTQ" addition="_dFXRoF7PEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4kYykF7PEeSxhqdheB_rTQ" memberEnd="_4kYykV7PEeSxhqdheB_rTQ _4kZZoF7PEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_4kYykV7PEeSxhqdheB_rTQ" type="_Tp3H4F7MEeSxhqdheB_rTQ" association="_4kYykF7PEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_4kZZoF7PEeSxhqdheB_rTQ" type="_xEf5kF7PEeSxhqdheB_rTQ" association="_4kYykF7PEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_5V354F7PEeSxhqdheB_rTQ" name="Používateľ predikcie"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9-56gF7PEeSxhqdheB_rTQ" memberEnd="_9-6hkF7PEeSxhqdheB_rTQ _9-6hkV7PEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_9-6hkF7PEeSxhqdheB_rTQ" type="_5V354F7PEeSxhqdheB_rTQ" association="_9-56gF7PEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_9-6hkV7PEeSxhqdheB_rTQ" type="_dFXRoF7PEeSxhqdheB_rTQ" association="_9-56gF7PEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sAU_oF7QEeSxhqdheB_rTQ" name="Použi fIlter na globálne dáta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ugUQIF7QEeSxhqdheB_rTQ" name="Použi filter na konkrétne dáta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SUmy4F7REeSxhqdheB_rTQ" name="Zvoľ regresnú metódu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ajzB4F7REeSxhqdheB_rTQ" name="Vyber výstupné dáta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_t4HyQF7REeSxhqdheB_rTQ" name="Označ model ako aktívny"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w5SdMF7REeSxhqdheB_rTQ" memberEnd="_w5TEQF7REeSxhqdheB_rTQ _w5TEQV7REeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_w5TEQF7REeSxhqdheB_rTQ" type="_Tp3H4F7MEeSxhqdheB_rTQ" association="_w5SdMF7REeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_w5TEQV7REeSxhqdheB_rTQ" type="_t4HyQF7REeSxhqdheB_rTQ" association="_w5SdMF7REeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_APL-QF7UEeSxhqdheB_rTQ" name="Nadriadený"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CyOiwF7UEeSxhqdheB_rTQ" name="Zobraz reporty"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FVRuUF7UEeSxhqdheB_rTQ" memberEnd="_FVRuUV7UEeSxhqdheB_rTQ _FVSVYF7UEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_FVRuUV7UEeSxhqdheB_rTQ" type="_APL-QF7UEeSxhqdheB_rTQ" association="_FVRuUF7UEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_FVSVYF7UEeSxhqdheB_rTQ" type="_CyOiwF7UEeSxhqdheB_rTQ" association="_FVRuUF7UEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JUA0wF7UEeSxhqdheB_rTQ" name="Skopíruj model"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_RltlMF7UEeSxhqdheB_rTQ" name="S iným modelom"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_TvWLMF7UEeSxhqdheB_rTQ" name="S historickými dátami"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dY77oF7UEeSxhqdheB_rTQ" name="Generuj reporty"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fMSIkF7UEeSxhqdheB_rTQ" memberEnd="_fMSIkV7UEeSxhqdheB_rTQ _fMSvoF7UEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_fMSIkV7UEeSxhqdheB_rTQ" type="_CyOiwF7UEeSxhqdheB_rTQ" association="_fMSIkF7UEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_fMSvoF7UEeSxhqdheB_rTQ" type="_dY77oF7UEeSxhqdheB_rTQ" association="_fMSIkF7UEeSxhqdheB_rTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_gk79kF7UEeSxhqdheB_rTQ" name="(Cron)"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iyD8cF7UEeSxhqdheB_rTQ" memberEnd="_iyEjgF7UEeSxhqdheB_rTQ _iyEjgV7UEeSxhqdheB_rTQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_iyEjgF7UEeSxhqdheB_rTQ" type="_gk79kF7UEeSxhqdheB_rTQ" association="_iyD8cF7UEeSxhqdheB_rTQ"/>
+    <ownedEnd xmi:id="_iyEjgV7UEeSxhqdheB_rTQ" type="_dY77oF7UEeSxhqdheB_rTQ" association="_iyD8cF7UEeSxhqdheB_rTQ"/>
+  </packagedElement>
+</uml:Model>
