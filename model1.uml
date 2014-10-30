@@ -82,4 +82,27 @@
     <ownedEnd xmi:id="_iyEjgF7UEeSxhqdheB_rTQ" type="_gk79kF7UEeSxhqdheB_rTQ" association="_iyD8cF7UEeSxhqdheB_rTQ"/>
     <ownedEnd xmi:id="_iyEjgV7UEeSxhqdheB_rTQ" type="_dY77oF7UEeSxhqdheB_rTQ" association="_iyD8cF7UEeSxhqdheB_rTQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_N_LCMGAaEeS_GfCUMj59kQ" name="Generuj predpovede"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ri3LYGAaEeS_GfCUMj59kQ" memberEnd="_Ri3LYWAaEeS_GfCUMj59kQ _Ri3ycGAaEeS_GfCUMj59kQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_Ri3LYWAaEeS_GfCUMj59kQ" type="_gk79kF7UEeSxhqdheB_rTQ" association="_Ri3LYGAaEeS_GfCUMj59kQ"/>
+    <ownedEnd xmi:id="_Ri3ycGAaEeS_GfCUMj59kQ" type="_N_LCMGAaEeS_GfCUMj59kQ" association="_Ri3LYGAaEeS_GfCUMj59kQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4ix8oGAaEeS_GfCUMj59kQ" name="Vytvor odvodené dáta">
+    <extend xmi:id="_MKKL4GAbEeS_GfCUMj59kQ" extendedCase="__Wz1MGAaEeS_GfCUMj59kQ"/>
+    <extend xmi:id="_MoGsIGAbEeS_GfCUMj59kQ" extendedCase="_IE4YkGAbEeS_GfCUMj59kQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__Wz1MGAaEeS_GfCUMj59kQ" name="Kombináciou existujúcich dát funkciami"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IE4YkGAbEeS_GfCUMj59kQ" name="Ručnými zmenami"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Nl9bgGAbEeS_GfCUMj59kQ" memberEnd="_Nl-CkGAbEeS_GfCUMj59kQ _Nl-CkWAbEeS_GfCUMj59kQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_Nl-CkGAbEeS_GfCUMj59kQ" type="_4ix8oGAaEeS_GfCUMj59kQ" association="_Nl9bgGAbEeS_GfCUMj59kQ"/>
+    <ownedEnd xmi:id="_Nl-CkWAbEeS_GfCUMj59kQ" type="_Tp3H4F7MEeSxhqdheB_rTQ" association="_Nl9bgGAbEeS_GfCUMj59kQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VOaTQGAeEeS_GfCUMj59kQ" name="Pretrénuj model"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z1xf8GAeEeS_GfCUMj59kQ" memberEnd="_Z1xf8WAeEeS_GfCUMj59kQ _Z1yHAGAeEeS_GfCUMj59kQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_Z1xf8WAeEeS_GfCUMj59kQ" type="_VOaTQGAeEeS_GfCUMj59kQ" association="_Z1xf8GAeEeS_GfCUMj59kQ"/>
+    <ownedEnd xmi:id="_Z1yHAGAeEeS_GfCUMj59kQ" type="_gk79kF7UEeSxhqdheB_rTQ" association="_Z1xf8GAeEeS_GfCUMj59kQ"/>
+  </packagedElement>
 </uml:Model>
