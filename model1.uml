@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BoJO4F7MEeSxhqdheB_rTQ" name="Basic UseCase">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BoJO4F7MEeSxhqdheB_rTQ" name="Model1">
   <packagedElement xmi:type="uml:Actor" xmi:id="_Tp3H4F7MEeSxhqdheB_rTQ" name="Dizajnér modelu"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_3gUYYF7NEeSxhqdheB_rTQ" name="Upraviť model">
     <include xmi:id="_6wnPAF7OEeSxhqdheB_rTQ" addition="_wepP8F7OEeSxhqdheB_rTQ"/>
@@ -104,5 +104,46 @@
     <name xsi:nil="true"/>
     <ownedEnd xmi:id="_Z1xf8WAeEeS_GfCUMj59kQ" type="_VOaTQGAeEeS_GfCUMj59kQ" association="_Z1xf8GAeEeS_GfCUMj59kQ"/>
     <ownedEnd xmi:id="_Z1yHAGAeEeS_GfCUMj59kQ" type="_gk79kF7UEeSxhqdheB_rTQ" association="_Z1xf8GAeEeS_GfCUMj59kQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_UYArMGAoEeS_GfCUMj59kQ" name="Basic UseCase"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kKwhkHCXEeS2w7dWkwZm6A" name="Dizajner modelu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_nn-PUHCXEeS2w7dWkwZm6A" name="Vytvor novu transformaciu">
+    <extend xmi:id="_vNgdUHCXEeS2w7dWkwZm6A" extendedCase="_tOvqkHCXEeS2w7dWkwZm6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_peYXUHCXEeS2w7dWkwZm6A" name="Uprav existujucu transformaciu">
+    <extend xmi:id="_wmKSUHCXEeS2w7dWkwZm6A" extendedCase="_tOvqkHCXEeS2w7dWkwZm6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_tOvqkHCXEeS2w7dWkwZm6A" name="Uprav transformaciu">
+    <include xmi:id="_06_SoHCZEeS2w7dWkwZm6A" addition="_q-nJEHCZEeS2w7dWkwZm6A"/>
+    <include xmi:id="_UG1DkHCaEeS2w7dWkwZm6A" addition="_16YTEHCZEeS2w7dWkwZm6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_LglRYHCYEeS2w7dWkwZm6A" name="Transformuj nasobenim konstantou"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bKhasHCYEeS2w7dWkwZm6A" name="Transformuj pricitanim konstanty"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dkMAwHCYEeS2w7dWkwZm6A" name="Transformuj min operaciou s konstantou"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_q-nJEHCZEeS2w7dWkwZm6A" name="Unarna trasformacia">
+    <include xmi:id="_ya8-0HCZEeS2w7dWkwZm6A" addition="_bKhasHCYEeS2w7dWkwZm6A"/>
+    <include xmi:id="_zI1_kHCZEeS2w7dWkwZm6A" addition="_LglRYHCYEeS2w7dWkwZm6A"/>
+    <include xmi:id="_z2GuMHCZEeS2w7dWkwZm6A" addition="_dkMAwHCYEeS2w7dWkwZm6A"/>
+    <include xmi:id="_io17gHCaEeS2w7dWkwZm6A" addition="_50GWoHCZEeS2w7dWkwZm6A"/>
+    <include xmi:id="_jbxNQHCaEeS2w7dWkwZm6A" addition="_-lrPQHCZEeS2w7dWkwZm6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sJ53gHCZEeS2w7dWkwZm6A" name="Zmaz existujucu transformaciu"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_16YTEHCZEeS2w7dWkwZm6A" name="Viacvstupova trasformacia"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_50GWoHCZEeS2w7dWkwZm6A" name="Transformju max operaciou s konstantou"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-lrPQHCZEeS2w7dWkwZm6A" name="Transformuj pouzitim matematickej funkcie"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lUMHcHCaEeS2w7dWkwZm6A" memberEnd="_lUMHcXCaEeS2w7dWkwZm6A _lUMugHCaEeS2w7dWkwZm6A">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_lUMHcXCaEeS2w7dWkwZm6A" type="_kKwhkHCXEeS2w7dWkwZm6A" association="_lUMHcHCaEeS2w7dWkwZm6A"/>
+    <ownedEnd xmi:id="_lUMugHCaEeS2w7dWkwZm6A" type="_nn-PUHCXEeS2w7dWkwZm6A" association="_lUMHcHCaEeS2w7dWkwZm6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mULk0HCaEeS2w7dWkwZm6A" memberEnd="_mULk0XCaEeS2w7dWkwZm6A _mUML4HCaEeS2w7dWkwZm6A">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_mULk0XCaEeS2w7dWkwZm6A" type="_kKwhkHCXEeS2w7dWkwZm6A" association="_mULk0HCaEeS2w7dWkwZm6A"/>
+    <ownedEnd xmi:id="_mUML4HCaEeS2w7dWkwZm6A" type="_peYXUHCXEeS2w7dWkwZm6A" association="_mULk0HCaEeS2w7dWkwZm6A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ov1H4HCaEeS2w7dWkwZm6A" memberEnd="_ov1H4XCaEeS2w7dWkwZm6A _ov1u8HCaEeS2w7dWkwZm6A">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:id="_ov1H4XCaEeS2w7dWkwZm6A" type="_kKwhkHCXEeS2w7dWkwZm6A" association="_ov1H4HCaEeS2w7dWkwZm6A"/>
+    <ownedEnd xmi:id="_ov1u8HCaEeS2w7dWkwZm6A" type="_sJ53gHCZEeS2w7dWkwZm6A" association="_ov1H4HCaEeS2w7dWkwZm6A"/>
   </packagedElement>
 </uml:Model>
